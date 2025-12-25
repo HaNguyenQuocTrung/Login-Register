@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #e9ecef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.8em; 
+    margin-bottom: 10px;
+}
+
+.navigation {
+    margin-top: 10px; 
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px; 
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #adb5bd;
+}
+
+main {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 10vh;
+}
+
+h2 {
+    margin-bottom: 20px; 
+    color: #343a40;
+}
+
+.error {
+    color: red; 
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ced4da;
+    border-radius: 4px; 
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    width: 100%; 
+    padding: 10px; 
+    background-color: #007bff; 
+    border: none; 
+    color: white; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+p {
+    margin-top: 15px; 
+    color: #343a40; 
+}
+
+.success-wrapper {
+    background: white; 
+    padding: 40px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    width: 300px; 
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+.success-wrapper h2 {
+    margin-bottom: 20px; 
+}
+
+.success-wrapper a {
+    text-decoration: none; 
+    color: #007bff; 
+    font-weight: 600; 
+}
+
+.success-wrapper a:hover {
+    text-decoration: underline; 
+}
